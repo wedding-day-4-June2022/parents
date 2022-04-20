@@ -142,6 +142,8 @@ h1{
 .namesWho {
     font-size: 40px;
     font-style: 'Alice';
+    line-height: 40px;
+    width: 100%;
 }
 /* ////// */
 .programm {
@@ -363,6 +365,11 @@ display: flex;
         margin: 265px 0px -20px 0px;
     }
 }
+.expensive {
+    font-weight: 400;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+}
 /* $breakpoint-xl: 1200px;
 $breakpoint-lg: 1024px; 
 $breakpoint-md: 768px; 
@@ -411,7 +418,7 @@ $breakpoint-mobile: 425px; */
 
 @media (max-width: 622px){
     .names img {
-        width: 379px;
+        width: 380px;
     }
     .date img {
         width: 350px;
@@ -514,9 +521,6 @@ $breakpoint-mobile: 425px; */
     }
 }
 @media (max-width : 543px) {
-    /* .place_blockText {
-        padding-top: 40px;
-    } */
     .logoTwo {
         width: 160px;
     }
@@ -524,29 +528,33 @@ $breakpoint-mobile: 425px; */
 }
 @media (max-width : 700px) {
     .names img {
-        width: 600px;
+        width: 500px;
     }
 }
 @media (max-width : 550px) {
     .names img {
-        width: 500px;
-    }
-    .main-hash {
-    width: 80%;
-    }
-}
-@media (max-width : 450px) {
-    .names img {
-        width: 450px;
+        width: 400px;
     }
     .main-hash {
     width: 80%;
     }
 }
 
+@media (max-width: 450px){
+    .names img {
+        margin-top: 10px;
+        width: 350px;
+    }
+    .main-hash {
+    width: 80%;
+    }
+}
+
+
 @media (max-width : 400px) {
     .names img {
-        width: 400px;
+        margin-top: 0px;
+        width: 330px;
     }
     .leftBottomFon {
         width: 200px;
